@@ -1,8 +1,16 @@
-html {
+html, body {
     /* font-family: 'Source Sans Pro', sans-serif; */
     font-family: 'Helvetica Neue', sans-serif;
-    /* font-size: larger; */
+    font-size: 16px;
     font-weight: 300;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+    font-size: 10px;
+    top: 180px;
 }
 
 a {
@@ -21,10 +29,11 @@ a:hover {
     margin-right: -50%;
     transform: translate(-50%, -50%) ;
     text-align: center;
-    max-width: 520px;
+    max-width: 500px;
     padding: 32px;
     line-height: 1.6em;
 }
+
 
 .avatar {
     border-radius: 50%;
