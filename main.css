@@ -6,12 +6,6 @@ html, body {
     overflow: hidden;
 }
 
-.container {
-    position: relative;
-    min-height: 100%;
-    font-size: x-small;
-    top: 150px;
-}
 
 a {
     text-decoration: none;
@@ -32,6 +26,14 @@ a:hover {
     max-width: 500px;
     padding: 32px;
     line-height: 1.6em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    margin-top: 100px;
 }
 
 
